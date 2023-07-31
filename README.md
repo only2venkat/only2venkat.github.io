@@ -2,7 +2,9 @@
 
 ### Introduction
 
-Use this template if you need a quick developer / data science portfolio! Based on a Minimal Jekyll theme for GitHub Pages.
+Home Credit is a multinational financial institution that specializes in providing loans to individuals with inadequate credit history. They aim to promote financial inclusion by offering accessible financial services to underprivileged populations. Home Credit develops creative financing solutions by using non-traditional data sources and other alternative techniques to evaluate creditworthiness. Their customer-centric approach and fast, convenient lending process empower individuals to make important purchases and build a positive credit history. Home Credit reduces the risks involved with lending to borrowers with spotty credit histories by using advanced risk management models. Overall, they strive to democratize access to financial services and create a positive social impact.
+
+This notebook will walk you through the data available and how that data is used to train a model which Home Credit will then use to predict if a future applicant will default on their loan or not.
 
 <img src="images/demo.gif?raw=true"/>
 
