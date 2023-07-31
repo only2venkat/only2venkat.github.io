@@ -9,8 +9,7 @@ Prior to my studies, I worked as an operations and business intelligence analyst
   <br><br>
   <br><br>
   <a href="https://www.linkedin.com/in/only2venkat>View My LinkedIn Profile</a> 
-  
-remote_theme: pages-themes/minimal@v0.2.0
+  remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
