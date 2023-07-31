@@ -1,11 +1,14 @@
 title: Venkatachalam K # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+ I am now pursuing master's in business analytics at the University of Utah's David Eccles School of Business, with a major in business intelligence and data analytics. I am also working as a data analyst (intern) in Intermountain health, SLC.I enjoy analyzing data with Python, SQL ,R and uses PowerBI, Tableau and Domo to create meaningful business insights and visualizations with multi level granularity. 
+
+My team won First prize in the Game Day Analytics challenge where we analyzed Super Bowl Twitter ad data (Obtained thro API) and presented insights including ad sentiment analysis, return on investment using tools Python, Azure, Cognitive Services, Alteryx, and Tableau. We also stood in top-5 in Domo-Layton Hackathon and developed an interactive dashboard, conducted data cleaning, munging, and analysis on Layton Construction’s data using DOMO ETL, Beast Mode, SQL, R, and AutoML 
+
+Prior to my studies, I worked as an operations and business intelligence analyst for close to 6 years in India’s largest engineering enterprise and recommended various business insights.
   <br><br>
-  Second description 
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/only2venkat>View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
