@@ -27,7 +27,10 @@ Trying many models gave us a thorough understanding of their advantages, disadva
 *   Is our selected model a current industry standard? If not, did we review current industry standard models to ensure that we tried various model options?
 
 
-### Markdown
+### My Contribution
+
+We worked as a team on Google Colab and completed the modeling process and compiling different code chunks into one single notebook using python packages.
+**Venkatachalam Kapuganti:** Worked on data cleaning, outliers identification and removal, data files merger, encoding and normalisation. By using raw as well as normalised data, created logistic regression model and randomforest model.
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
