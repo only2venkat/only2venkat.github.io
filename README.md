@@ -1,30 +1,12 @@
 ## Modeling For Home-Credit
 
-### Introduction (Summary of business problem and project objective)
-
+### Business problem and project objective
 Home Credit is a multinational financial institution that specializes in providing loans to individuals with inadequate credit history. They aim to promote financial inclusion by offering accessible financial services to underprivileged populations. Home Credit develops creative financing solutions by using non-traditional data sources and other alternative techniques to evaluate creditworthiness. Their customer-centric approach and fast, convenient lending process empower individuals to make important purchases and build a positive credit history. Home Credit reduces the risks involved with lending to borrowers with spotty credit histories by using advanced risk management models. Overall, they strive to democratize access to financial services and create a positive social impact.
+The business problem that the Home Credit seeks to address is how to predict which loan applicants are more likely to default. This is a critical problem for Home Credit, as it allows them to make more informed lending decisions and reduce the risk of default.
+The primary objective of this project is to develop a predictive model that can accurately assess the creditworthiness of loan applicants based on various features and historical data provided by Home Credit.
 
-This notebook will walk you through the data available and how that data is used to train a model which Home Credit will then use to predict if a future applicant will default on their loan or not.
-
-
-### Installation
-
-###**How did trying different models help?**
-
-Trying many models gave us a thorough understanding of their advantages, disadvantages, and performance on the work at hand. It contributed in selecting the best model, maximising performance, comprehending the significance of features, evaluating robustness, and utilising model diversity to enhance predictions and gather insightful information.
-
-**Selecting the right model for the job:** As this is a classification issue and there are numerous of classification models to choose from, we selected this as our starting point. We tried default decision trees, Random Forest, and a few different varients of Gradient Boosting Machine.
-
-**Performance Comparison:** Comparing performances of various models enables you to choose the one that performs the best. Along with which we also took into consideration the Kaggle score as guided to move forward with the best model based on it's Kaggle score. Random Forest and Gradient Boosting Machine models performed much better than the default decision tree model; however, there were some overfitting issues that we had to correct for. While Random Forest and our Gradient Boosting Machine models were similar, we moved forward with a Gradient Boosting Machine model given its advantage of how quickly it can train the model.
-
-**Questions when testing different models:** We asked ourselves a variety of questions to help use decide which model to use.
-
-
-
-*   Different models draw attention to different key characteristics. Does our selected model fail to draw attention to important key characteristics that we need to include?
-*   Is our model robust? Could Home Credit train a new model using our work if they had additional new train data?
-*   Do other models show patterns or insights that our model doesn't? If yes, is it worth finding a way to include these in our model?
-*   Is our selected model a current industry standard? If not, did we review current industry standard models to ensure that we tried various model options?
+### Your group's solution to the business problem.
+The solution to the business problem of predicting loan default is a complex process that involves understanding data, cleaning and preparing the data, choosing a machine learning algorithm, training the model, evaluating the model, and deploying the model. However, the benefits of using a machine learning model to predict loan default can be significant, as it can help to improve lending decisions and reduce the risk of default.
 
 
 ### My Contribution
@@ -32,14 +14,24 @@ Trying many models gave us a thorough understanding of their advantages, disadva
 We worked as a team on Google Colab and completed the modeling process and compiling different code chunks into one single notebook using python packages.
 **Venkatachalam Kapuganti:** Worked on data cleaning, outliers identification and removal, data files merger, encoding and normalisation. By using raw as well as normalised data, created logistic regression model and randomforest model.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
 ### The business value of the solution.
-
-
+The business value of the solution to the business problem of predicting loan default is significant. By using a machine learning model, lenders can reduce the risk of default, improve the customer experience, and increase lending opportunities. They can also reduce costs, improve decision-making, increase transparency, and enhance compliance.
+Here are some specific benefits that can be realized from using a machine learning model to predict loan default:
+•	Reduced risk of default: By accurately predicting which applicants are more likely to default, lenders can avoid making risky loans. This can help to protect the lender's financial interests and improve the overall health of the lending portfolio.
+•	Improved customer experience: By providing loans to borrowers who are more likely to repay, lenders can improve the customer experience. This can lead to increased customer satisfaction and loyalty.
+•	Increased lending opportunities: By using a model to predict loan default, lenders can extend credit to borrowers who would otherwise be denied a loan. This can help to expand access to credit and promote financial inclusion.
+•	Reduced costs: By using a machine learning model to predict loan default, lenders can reduce the costs associated with loan defaults. This includes the costs of collecting on defaulted loans, the costs of legal action, and the costs of bad debt write-offs.
+Overall, the business value of the solution to the business problem of predicting loan default is significant. By using a machine learning model, lenders can improve their lending decisions and reduce the risk of default. This can lead to significant financial benefits for the company, as well as improved customer satisfaction.
 
 ### Difficulties that your group encountered along the way.
 
+The development of a model to predict loan default can be challenging due to a number of factors, including:
+
+Data quality: The quality of the data is critical to the success of any machine learning model. If the data is incomplete or inaccurate, it can lead to inaccurate predictions.
+Model complexity: The complexity of the model can also be a challenge. If the model is too complex, it can be difficult to interpret and deploy.
+Overfitting: Overfitting is a problem that occurs when the model learns the training data too well. This can lead to inaccurate predictions on new data.
+Underfitting: Underfitting is a problem that occurs when the model does not learn the training data well enough. This can also lead to inaccurate predictions on new data.
+By carefully considering these challenges, it is possible to develop a model that is accurate and reliable.
 
 ### What you learned in the project
-
+The Home Credit Default Risk project is a valuable learning experience that teaches us about the importance of data quality, feature engineering, and machine learning algorithms. It also teaches us about the importance of interpreting and deploying machine learning models. The project shows that machine learning is a powerful tool that can be used to solve a wide variety of problems, but it is important to remember that machine learning is not a magic bullet. It is a tool that can be used to improve the accuracy of predictions, but it does not guarantee accuracy. The project also shows that machine learning is a complex process that involves many steps. It is important to understand the different steps involved in the process and to be able to apply them effectively. Finally, the project shows that machine learning is an iterative process. This means that the model should be evaluated and improved on a regular basis. This is important for ensuring that the model is accurate and that it is able to adapt to changes in the data.
