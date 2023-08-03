@@ -4,7 +4,7 @@
 
 ### Kaggle projects
 
-[Home Credit Modelling](/README)
+[Home Credit Modelling](/sample_page.md)
 <img src="images/homecredit.jpg?raw=true"/>
 
 ### Academic Challenges
