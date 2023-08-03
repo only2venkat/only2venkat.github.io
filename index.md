@@ -10,7 +10,7 @@
 ### Academic Challenges
 
 - [Gameday Analytics](http://example.com/)
-  <img src="images/gameday.png?raw=true"/>
+  <img src="images/gameday.PNG?raw=true"/>
 - [Domo Layton hacathon](http://example.com/)
   <img src="images/domo.png?raw=true"/>
 ---
